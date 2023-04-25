@@ -1,0 +1,9 @@
+# Webstorm
+.idea
+
+# Parcel
+.parcel-cache
+dist
+
+# Modules
+node_modules/
