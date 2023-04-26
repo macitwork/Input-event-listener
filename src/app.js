@@ -15,8 +15,8 @@ const recipeList = document.getElementById( 'recipe-list' );
 // })
 
 // Edamam API variabelen
-const APP_ID = 'ee3c69b6';
-const APP_KEY = '2853c1f81651d74fa47d264e4c1da07e';
+const APP_ID = ''; // Todo: <--- Hier jouw API ID
+const APP_KEY = ''; // Todo: <-- Hier jouw API KEY
 const URI = `https://api.edamam.com/api/recipes/v2`;
 
 // API URL
