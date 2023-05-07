@@ -6,13 +6,13 @@ const submitForm = document.getElementById( 'submit-form' );
 const recipeList = document.getElementById( 'recipe-list' );
 
 // Variabele voor input value
-// let inputValue = '';
+ let inputValue = '';
 
 // Input event listener
-// inputField.addEventListener('input', (event)=>{
-//     inputValue = event.target.value;
-//     console.log(inputValue);
-// })
+ inputField.addEventListener('input', (event)=>{
+     inputValue = event.target.value;
+     console.log(inputValue);
+})
 
 // Edamam API variabelen
 const APP_ID = ''; // Todo: <--- Hier jouw API ID
